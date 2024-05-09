@@ -9,6 +9,7 @@ function Testimonials(props) {
 
   const leftShiftHandler = () => {
     if (index - 1 < 0) {
+      console.log("my left shift handlert ", index);
       setIndex(data.length - 1);
     } else {
       setIndex(index - 1);
